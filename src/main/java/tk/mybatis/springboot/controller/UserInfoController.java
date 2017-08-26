@@ -83,4 +83,10 @@ public class UserInfoController {
         result.put("msg", msg);
         return result;
     }
+
+    public String getStr(String str){
+        System.out.println("hello");
+        return "hello";
+    }
+
 }
